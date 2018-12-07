@@ -1,0 +1,41 @@
+-- Table: public.integradora
+
+-- DROP TABLE public.integradora;
+
+CREATE TABLE public.integradora
+(
+  id integer NOT NULL DEFAULT nextval('integradora_id_seq'::regclass),
+  nome_aluno character varying(50) NOT NULL,
+  matrcula_aluno character varying(40) NOT NULL,
+  cod_aluno character varying NOT NULL,
+  date_added character varying(100) NOT NULL,
+  date_updat character varying(100) NOT NULL,
+  periodo_letivo character varying(40) NOT NULL,
+  nota1 integer NOT NULL,
+  nota2 integer NOT NULL,
+  nota3 integer NOT NULL,
+  nota4 integer NOT NULL,
+  nota5 integer NOT NULL,
+  nota6 integer NOT NULL,
+  nota7 integer NOT NULL,
+  nota8 integer NOT NULL,
+  nota9 integer NOT NULL,
+  nota10 integer NOT NULL,
+  nota11 integer NOT NULL,
+  nota12 integer NOT NULL,
+  nota13 integer NOT NULL,
+  nota14 integer NOT NULL,
+  nota15 integer NOT NULL,
+  nota16 integer NOT NULL,
+  nota17 integer NOT NULL,
+  nota18 integer NOT NULL,
+  nota19 integer NOT NULL,
+  nota20 integer NOT NULL,
+  multiplicada character varying(20) NOT NULL,
+  CONSTRAINT integradora_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.integradora
+  OWNER TO postgres;
