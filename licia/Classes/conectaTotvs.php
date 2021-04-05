@@ -32,8 +32,8 @@
         $ @param $senha senha da base de dados 
         */ 
         function SQLServer() { 
-            $varDb = "ucsal"; 
-            $varHost = "10.8.1.56"; 
+            $varDb = ""; 
+            $varHost = ""; 
             $varUsuario = "moodle_user"; 
             $varSenha = "MoodleDesenv#"; 
             $this->db = $varDb; 
