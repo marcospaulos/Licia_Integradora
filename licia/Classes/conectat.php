@@ -11,8 +11,8 @@ ini_set('display_startup_erros',1);
 
 //echo "Conectando ao Banco de Integração... <br>";
 	// Dados do banco
-	$dbhost   = "10.8.1.56";   #Nome do host
-	$db       = "ucsall";   #Nome do banco de dados
+	$dbhost   = "1";   #Nome do host
+	$db       = "";   #Nome do banco de dados
 	$user     = "moodle_user"; #Nome do usuário
 	$password = "MoodleDesenv#";   #Senha do usuário
 
